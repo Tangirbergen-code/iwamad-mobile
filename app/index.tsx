@@ -9,16 +9,16 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Hello, World!</Text>
       <Text style={styles.subtitle}>Tangirbergen Baichalov</Text>
-
+      
       <Pressable style={styles.button} onPress={() => setLikes(likes + 1)}>
         <Text style={styles.buttonText}>Like: {likes}</Text>
       </Pressable>
 
       <Link href="/events" asChild>
-  <Pressable style={{ ...styles.button, marginTop: 15 }}>
-    <Text style={styles.buttonText}>Events</Text>
-  </Pressable>
-</Link>
+        <Pressable style={{ ...styles.button, marginTop: 15 }}>
+          <Text style={styles.buttonText}>Events</Text>
+        </Pressable>
+      </Link>
     </View>
   );
 }
