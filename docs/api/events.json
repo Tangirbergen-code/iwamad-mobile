@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Go (Weiqi) Tournament",
+    "date": "2026-11-10",
+    "place": "Almaty Club",
+    "seats": 32
+  },
+  {
+    "id": 2,
+    "title": "React Native Workshop",
+    "date": "2026-11-12",
+    "place": "Tech Hub",
+    "seats": 50
+  },
+  {
+    "id": 3,
+    "title": "E-commerce Seller Meetup",
+    "date": "2026-11-15",
+    "place": "Business Center",
+    "seats": 20
+  },
+  {
+    "id": 4,
+    "title": "Open Source Hackathon",
+    "date": "2026-11-20",
+    "place": "University Lab",
+    "seats": 100
+  }
+]
